@@ -1,0 +1,31 @@
+{
+  "name": "vocab-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"No tests specified\""
+  },
+  "dependencies": {
+    "cors": "^0.0.0",
+    "dotenv": "^0.0.0",
+    "express": "^0.0.0",
+    "multer": "^0.0.0",
+    "openai": "^0.0.0",
+    "pg": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^0.0.0",
+    "@types/express": "^0.0.0",
+    "@types/multer": "^0.0.0",
+    "@types/node": "^0.0.0",
+    "@types/pg": "^0.0.0",
+    "nodemon": "^0.0.0",
+    "ts-node": "^0.0.0",
+    "typescript": "^0.0.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,19 @@
+name: german_vocab_app
+description: A Flutter app for vocab cards
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.0.0
+  flutter_dotenv: ^0.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
